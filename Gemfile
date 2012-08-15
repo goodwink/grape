@@ -11,6 +11,6 @@ group :development, :test do
   gem 'growl'
   gem 'json'
   
-  gem 'rspec' 
+  gem 'rspec', '~> 2.9' 
   gem 'rack-test', :require => "rack/test"
 end
